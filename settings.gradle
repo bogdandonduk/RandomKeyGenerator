@@ -1,0 +1,3 @@
+rootProject.name = "RandomKeyGenerator"
+include ':app'
+include ':RandomKeyGeneratorAndroidLib'
