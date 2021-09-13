@@ -37,7 +37,7 @@ val myFirstUniqueKey = "my_key_56839"
 
 val myUniqueKey: String = RandomKeyGenerator.generateWithPrefix("my_key", regenerationPredicate = { attemptKey: String ->
 	attemptKey == myFirstUniqueKey 
-	// if this will ever happen to be true,
+	// if this ever happens to be true,
 	// another key will be generated
 	// but the probability of this ever happening is tiny
 	// because the chance is one to billion
