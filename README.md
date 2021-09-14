@@ -32,7 +32,6 @@ allprojects {
 
 # Examples of usage
 ```kotlin 
-// gen
 val myFirstUniqueKey = "my_key_56839"
 
 val myUniqueKey: String = RandomKeyGenerator.generateWithPrefix("my_key", regenerationPredicate = { attemptKey: String ->
